@@ -44,13 +44,14 @@ h4{
 }
 p{
     position: relative;
-    top: -10px;
+    top: -20px;
     font-family:Arial;
     font-size: 11px;
 }
 p.dates{
+    font-family: Times;
     position: relative;
-    top: -20px;
+    top: -32.5px;
     font-style: italic;
     color:gray;
 }
@@ -60,9 +61,9 @@ p.role{
 }
 p.writing{
     position: relative;
-    top: -10px;
+    top: -20px;
 }
 p.Rwriting{
     position: relative;
-    top: -20px;
+    top: -30px;
 }
