@@ -1,6 +1,6 @@
 body{
-    height: 842px;
-    width: 350px;
+    height: 700px;
+    width: 575px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -15,24 +15,54 @@ div.titlepage{
 }
 .top-div{
     float: top;
+    max-height: 75px;
+    height: 100%;
+
 }
 .right-div{
     float: right;
+    position: relative;
+    right: 75px;
 }
-
-h4{
-    font-family:Copperplate;
+h1{
+    font-size: xx-large;
+}
+info{
     font-size: smaller;
+    position: relative;
+    top: -25px;
+}
+h4{
+    font-family: "Arial Black";
+    font-size: 7.5px;
     font-style: normal;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: 1000;
+    letter-spacing: 2px;
+
+
 }
 p{
+    position: relative;
+    top: -10px;
     font-family:Arial;
-    font-size: 12px;
+    font-size: 11px;
 }
 p.dates{
-
+    position: relative;
+    top: -20px;
     font-style: italic;
     color:gray;
+}
+p.role{
+    font-family:"Times New Roman";
+    font-size: 13px;
+}
+p.writing{
+    position: relative;
+    top: -10px;
+}
+p.Rwriting{
+    position: relative;
+    top: -20px;
 }
